@@ -1,6 +1,7 @@
 {
   "name": "test-project",
   "version": "0.1.0",
+  "homepage": "https://mary7hu.github.io/cogs125",
   "private": true,
   "scripts": {
     "dev": "next dev",
