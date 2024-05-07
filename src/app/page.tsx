@@ -5,12 +5,7 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.h1}>Qijun&apos;s Portfolio</h1>
-      <Image
-        src="/some-image.jpg"
-        alt="Some Image"
-        width={500}
-        height={500}
-      />
+      <img src="some-image.jpg" alt="Some Image" width={500}></img>
       <a href="https://github.com/mary7hu" target="_blank" className={styles.link}>Link to my Github</a>
     </div>
     // <main className={styles.main}>
