@@ -3,7 +3,16 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <h1 className={styles.h1}>Qijun&apos;s Portfolio</h1>
+    <div className={styles.wrapper}>
+      <h1 className={styles.h1}>Qijun&apos;s Portfolio</h1>
+      <Image
+        src="/some-image.jpg"
+        alt="Some Image"
+        width={500}
+        height={500}
+      />
+      <a href="https://github.com/mary7hu" target="_blank" className={styles.link}>Link to my Github</a>
+    </div>
     // <main className={styles.main}>
     //   <div className={styles.description}>
     //     <p>
